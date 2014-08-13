@@ -63,7 +63,7 @@
    (var-parse expr)))
 
 (comment
-  (pprint (var-parse pop pop-data))
+  (pprint (var-parse pop))
   (println "(expr (#(get data (keyword %)) \"B01001_001\"))")
 
   (pprint (var-calc pop pop-data))
@@ -88,8 +88,6 @@
    (var-parse expr)))
 
 (comment
-  (var-calc2 pop pop-data2)
-
   (pprint (var-calc2 pop pop-data2))
   (pprint (var-calc2 pop-of-color pop-data2))
   (pprint (var-calc2 pct-pop-of-color pop-data2))

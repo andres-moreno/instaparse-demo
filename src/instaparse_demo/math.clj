@@ -40,7 +40,6 @@
 (def math-parser (insta/parser math-grammer))
 
 (comment
-  ;; let's parser some simple expressions
   (pprint (math-parser "1 + 2"))
   (pprint (math-parser "2 * 4"))
   (pprint (math-parser "4 / 2"))
